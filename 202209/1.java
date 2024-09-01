@@ -10,8 +10,6 @@ public class Main{
             a[i] = sc.nextInt();
             c[i+1] = c[i] * a[i];
             b[i]=(m%c[i+1])/c[i];
-        }
-        for (int i = 0; i < n; i++) {
             System.out.print(b[i] + " ");
         }
     }
